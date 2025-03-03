@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 import './App.css';
 
-const socket = io('http://localhost:5000'); // Backend URL (Change when deployed)
+const socket = io('https://tortoiseshell-magnetic-babcat.glitch.me'); // Backend URL (Change when deployed)
 
 const App = () => {
   const [username, setUsername] = useState('');
